@@ -4,7 +4,8 @@
   "description": "QA auditing project with AI.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "playwright test",
+    "install-browsers": "playwright install"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/marcoalq9/QA-AI-Auditor/issues"
   },
-  "homepage": "https://github.com/marcoalq9/QA-AI-Auditor#readme"
+  "homepage": "https://github.com/marcoalq9/QA-AI-Auditor#readme",
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
 }
