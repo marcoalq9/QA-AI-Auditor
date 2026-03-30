@@ -1,0 +1,21 @@
+{
+  "name": "qa-ai-auditor",
+  "version": "1.0.0",
+  "description": "QA auditing project with AI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoalq9/QA-AI-Auditor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/marcoalq9/QA-AI-Auditor/issues"
+  },
+  "homepage": "https://github.com/marcoalq9/QA-AI-Auditor#readme"
+}
