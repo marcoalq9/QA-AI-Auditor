@@ -23,12 +23,14 @@ This project automates quality auditing processes for e-commerce platforms using
 ## Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/marcoalq9/QA-AI-Auditor.git
    cd QA-AI-Auditor
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -51,16 +53,19 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### Running Tests
 
 Run all tests:
+
 ```bash
 npm test
 ```
 
 Run specific test file:
+
 ```bash
 npx playwright test tests/happy-path-checkout.spec.ts
 ```
 
 Run tests in headed mode (visible browser):
+
 ```bash
 npx playwright test --headed
 ```
@@ -68,6 +73,7 @@ npx playwright test --headed
 ### Generating Reports
 
 After running tests, generate and view HTML report:
+
 ```bash
 npx playwright show-report
 ```
