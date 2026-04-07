@@ -26,3 +26,5 @@ export const testData = {
     lockedOutError: "Epic sadface: Sorry, this user has been locked out.",
   },
 };
+
+// this data should be in .env file, password must never be shared in the code
