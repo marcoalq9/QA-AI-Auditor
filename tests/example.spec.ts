@@ -5,3 +5,6 @@ test("login page loads", async ({ page }) => {
 
   await expect(page.locator('[data-test="login-button"]')).toBeVisible();
 });
+
+
+// remove this file
